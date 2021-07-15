@@ -1,0 +1,10 @@
+.icon {
+  margin: 0 0.75rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon__element {
+  width: 24px;
+  height: 24px;
+}
