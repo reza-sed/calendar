@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: var(--color-secondary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* App global color pallete */
+:root {
+  --color-primary: #aeaeae;
+  --color-secondary: #e4e4e4;
+  --color-accent: #d4665b;
+  /* events global color set */
+  --color-event-success: #5cb058;
+  --color-event-danger: #b02942;
+  --color-event-warn: #d35c27;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* define varous events related type colors */
+.event--success {
+  fill: var(--color-event-success);
 }
 
-.App-link {
-  color: #61dafb;
+.event--danger {
+  fill: var(--color-event-danger);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.event--warn {
+  fill: var(--color-event-warn);
 }

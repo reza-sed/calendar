@@ -1,5 +1,9 @@
 .calendar {
   margin: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: white;
+  padding: 1rem;
 }
 
 h3 {
@@ -15,5 +19,5 @@ h3 {
 .panel__title {
   font-size: 1.2rem;
   font-weight: bold;
-  color: orangered;
+  color: var(--color-accent);
 }
