@@ -2,7 +2,7 @@ import "./App.css";
 import Calendar from "./component/calendar";
 
 // events status
-const eventStatus = {
+export const eventStatus = {
   success: "event--success",
   danger: "event--danger",
   warn: "event--warn",

@@ -37,7 +37,7 @@ export default function Calendar({ year, month, events }) {
     <section className={styles.calendar}>
       <h3>Calandar</h3>
       <div className={styles.panel}>
-        <span className={styles.panel__title}>
+        <span id="monthTitle" className={styles.panel__title}>
           {GetMonthOfYear(currentYear, currentMonth)}
         </span>
         <span className={styles.panel__navigation}>

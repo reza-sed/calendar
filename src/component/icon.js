@@ -6,7 +6,7 @@ export default function Icon({ name, cls, onClick }) {
     : `${styles.icon__element}`;
 
   return (
-    <span className={styles.icon} onClick={onClick}>
+    <span id={name} className={styles.icon} onClick={onClick}>
       <svg className={classNames}>
         <use xlinkHref={iconPath}></use>
       </svg>

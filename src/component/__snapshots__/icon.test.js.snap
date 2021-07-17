@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component snapshot testing with custom cls for colorizing 1`] = `
+<span
+  className="icon"
+  id="circle"
+>
+  <svg
+    className="icon__element event--success"
+  >
+    <use
+      xlinkHref="/images/icons.svg#circle"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon component snapshot testing without custom cls 1`] = `
+<span
+  className="icon"
+  id="circle"
+>
+  <svg
+    className="icon__element"
+  >
+    <use
+      xlinkHref="/images/icons.svg#circle"
+    />
+  </svg>
+</span>
+`;
